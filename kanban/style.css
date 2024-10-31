@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: aqua;
+    color: darkcyan;
+}
+
+.header {
+    text-align: center;
+}
+
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.column {
+    background-color: lightblue;
+    border: 2px solid;
+    min-width: 300px;
+    padding: 10px;
+    min-height: 200px;
+    border-radius: 5px;
+}
+
+.task {
+    width: 90%; /* Width of the task */
+    height: 50px; /* Fixed height for the task */
+    margin: 5px auto; /* Center horizontally within column */
+    border: 1px solid gray; /* Optional: add a border for visibility */
+    border-radius: 5px; /* Optional: add rounded corners */
+    background-color: blue; /* Optional: background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task-input {
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    border:none;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.dragging {
+    opacity: 0.5;
+    border : 2px gray;
+    z-index: 1000;
+}
+
+.input {
+    background-color: lightblue;
+    font-size: large;
+}
+.addtask{
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border-color: lightseagreen;
+    margin : 20px;
+}
+
+.deletetask{
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border-color: lightseagreen;
+    margin : 20px;
+}
+
+
+.newcolumn{
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border-color: lightseagreen;
+    margin : 20px;
+}
+
+.deletecolumn {
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border-color: lightseagreen;
+    margin : 20px;
+}
